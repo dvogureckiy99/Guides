@@ -49,7 +49,9 @@ user@user:~$ git config --global http.proxy "http://10.128.0.100:8080"
 $ git clone https://github.com/opencv/opencv.git
 ```
 
-![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig1_clone.png "git clone")
+<p align="center">
+<img width="640" height="480" src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig1_clone.png">
+</p>
 
 Перейти в папку opencv. Потом перейти на ветку 3.4.0
 
