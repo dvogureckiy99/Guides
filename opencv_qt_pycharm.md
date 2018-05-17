@@ -18,27 +18,27 @@ $ sudo apt install git
 После этого git будет установлен и можно переходить к его настройке. А именно, нужно глобально указать имя пользователя и электронный адрес 
 
 ```
-$ git config –-global user.name <username>
-$ git config –-global user.email <useremail>
+$ git config --global user.name <username>
+$ git config --global user.email <useremail>
 ```
 
 #### Пример 
 
 ```
-user@user:~$ git config –-global user.name  User
-user@user:~$ git config –-global user.email usermail@gmail.com 
+user@user:~$ git config --global user.name  User
+user@user:~$ git config --global user.email usermail@gmail.com 
 ```
 
 Если установлен прокси, то нужно также указать и его 
 
 ```
-$ git config –-global http.proxy "http://<proxy>:<port>"
+$ git config --global http.proxy "http://<proxy>:<port>"
 ```
 
 #### Пример 
 
 ```
-user@user:~$ git config –-global http.proxy "http://10.128.0.100:8080"
+user@user:~$ git config --global http.proxy "http://10.128.0.100:8080"
 ```
 
 ## Сборка и установка библиотеки OpenCV
@@ -49,8 +49,41 @@ user@user:~$ git config –-global http.proxy "http://10.128.0.100:8080"
 $ git clone https://github.com/opencv/opencv.git
 ```
 
+![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig1_clone.png "git clone")
 
+Перейти в папку opencv. Потом перейти на ветку 3.4.0
 
+```
+$ git checkout 3.4.0 
+```
+
+![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig2_branch340.png "branch 3.4.0")
+
+Установить все дополнительные компоненты системы. Ввести пароль, чтобы дать разрешение на установку и согласиться на предоставления необходимого места пакетам. 
+
+```
+$ sudo apt install git cmake qt5-default libeigen3-dev libtbb-dev python-numpy
+```
+
+Создать в папке opencv папку с именем build. Перейти в неё. 
+
+```
+$ mkdir build 
+$ cd build 
+```
+
+В папке build вызвать команду cmake с опциями: 
+
+```
+$ cmake   -D WITH_TBB=ON \
+          -D WITH_EIGEN=ON \
+          -D WITH_QT=ON \
+          -D CMAKE_INSTALL_PREFIX=~/opencv_bin \
+          -D CMAKE_BUILD_TYPE=RELEASE \
+          ..
+```
+
+При успешной сборке, конфигурация покажет примерно такое строки 
 
 ### Installing
 
