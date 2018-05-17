@@ -146,7 +146,19 @@ $ sudo snap install pycharm-community --classic
 Также необходимо сделать настройку путей до библиотек, установленных не в системных папках (как в нашем случае). Выбираем File -> Settings -> Project -> Project Interpreter 
 
 <p align="center">
-<img src="">
+<img src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/py_path1.png">
+</p>
+
+Далее Show all 
+
+<p align="center">
+<img src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/py_path2.png">
+</p>
+
+Потом нажимаем на крестик и выбираем нужный путь (там, где лежат библиотеки).
+
+<p align="center">
+<img src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/py_path3.png">
 </p>
 
 Далее в файле main.py можно написать тестовую программу по выводу картинки в новое окно. При этом картинка должна находится там же, где и файл main. 
