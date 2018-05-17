@@ -50,7 +50,7 @@ $ git clone https://github.com/opencv/opencv.git
 ```
 
 <p align="center">
-<img width="640" height="480" src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig1_clone.png">
+<img src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig1_clone.png">
 </p>
 
 Перейти в папку opencv. Потом перейти на ветку 3.4.0
@@ -59,7 +59,9 @@ $ git clone https://github.com/opencv/opencv.git
 $ git checkout 3.4.0 
 ```
 
-![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig2_branch340.png "branch 3.4.0")
+<p align="center">
+<img src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig2_branch340.png">
+</p>
 
 Установить все дополнительные компоненты системы. Ввести пароль, чтобы дать разрешение на установку и согласиться на предоставления необходимого места пакетам. 
 
@@ -87,7 +89,9 @@ $ cmake   -D WITH_TBB=ON \
 
 При успешной сборке, конфигурация покажет примерно такое строки 
 
-![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig3_conf.png "cmake conf")
+<p align="center">
+<img src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig3_conf.png">
+</p>
 
 После окончания сборки пакетов нужно вызвать установку 
 
@@ -127,11 +131,15 @@ $ sudo snap install pycharm-community --classic
 
 Создаём новый проект File – New Project..., указываем расположение проекта и его имя. 
 
-![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig5_py_crpr.png "create project")
+<p align="center">
+<img src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig5_py_crpr.png">
+</p>
 
 После этого щёлкаем правой кнопкой мыши по появившемуся проекту во вкладке Project и выбираем New – Python File, указываем имя файла с расширением .py 
 
-![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig6_addpyf1.png "add new file 1")
+<p align="center">
+<img width = "926" height = "927" src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig6_addpyf1.png">
+</p>
 
 ![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig7_addpyf2.png "add new file 2")
 
