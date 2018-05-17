@@ -135,7 +135,7 @@ $ sudo snap install pycharm-community --classic
 <img src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig5_py_crpr.png">
 </p>
 
-После этого щёлкаем правой кнопкой мыши по появившемуся проекту во вкладке Project и выбираем New – Python File, указываем имя файла с расширением .py 
+После этого щёлкаем правой кнопкой мыши по появившемуся проекту во вкладке Project и выбираем New –> Python File, указываем имя файла с расширением .py 
 
 <img width = "500" height = "500" src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig6_addpyf1.png"> ![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig7_addpyf2.png "add file 2")
 
@@ -174,7 +174,7 @@ cv2.waitKey(0)
 ```
 
 Запуск программы можно осуществить несколькими способами: 
-* из панели инструментов Run – Run main
+* из панели инструментов Run –> Run main
 * из консоли нажав зелёную стрелочку   ![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/green_ar.png "arrow")
 * с помощью горячих клавиш Shift + F10
 
