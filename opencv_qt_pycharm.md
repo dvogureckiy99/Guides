@@ -1,10 +1,10 @@
-# Инструкция по сборке библиотеки OpenCV c Qt для Python2.7
+# Инструкция по сборке библиотеки OpenCV
 
 Инструкция по сборке и установке библиотеки OpenCV c Qt для python 2.7
 
 ## Установка git 
 
-Для этого сначала нужно обновить списки пакетов
+Cначала нужно обновить списки пакетов
 
 ```
 $ sudo apt update 
@@ -76,11 +76,11 @@ $ cd build
 
 ```
 $ cmake   -D WITH_TBB=ON \
-          -D WITH_EIGEN=ON \
-          -D WITH_QT=ON \
-          -D CMAKE_INSTALL_PREFIX=~/opencv_bin \
-          -D CMAKE_BUILD_TYPE=RELEASE \
-          ..
+          	-D WITH_EIGEN=ON \
+          	-D WITH_QT=ON \
+          	-D CMAKE_INSTALL_PREFIX=~/opencv_bin \
+          	-D CMAKE_BUILD_TYPE=RELEASE \
+          	..
 ```
 
 При успешной сборке, конфигурация покажет примерно такое строки 
@@ -151,11 +151,11 @@ cv2.waitKey(0)
 
 Запуск программы можно осуществить несколькими способами: 
 * из панели инструментов Run – Run main
-* из консоли нажав зелёную стрелочку ![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/green_ar.png "arrow")
+* из консоли нажав зелёную стрелочку   ![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/green_ar.png "arrow")
 * с помощью горячих клавиш Shift + F10
 
 В результате в консоли должно быть выведено слово Hello и в окне с именем test должна появиться картинка.
 
-![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig9_console1.png "success")
+![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig9_console1.png "success") ![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig10_test_pic.png "picture")
 
 ### Готово. Вы восхитительны (=
