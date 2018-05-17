@@ -137,22 +137,8 @@ $ sudo snap install pycharm-community --classic
 
 После этого щёлкаем правой кнопкой мыши по появившемуся проекту во вкладке Project и выбираем New – Python File, указываем имя файла с расширением .py 
 
-                           | 
-:-------------------------:|:-------------------------:
-<p align="center">
-<img width = "500" height = "500" src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig6_addpyf1.png">
-</p>  |  <p align="center">
-<img src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig7_addpyf2.png">
-</p>
+![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig6_addpyf1.png "add file 1") ![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig7_addpyf2.png "add file 2")
 
-<!-- <p align="left">
-<img width = "500" height = "500" src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig6_addpyf1.png">
-</p> -->
-
-<!-- <p align="right">
-<img src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig7_addpyf2.png">
-</p>
- -->
 После этого переходим в File – Settings – Project – Project Interpreter, в графе Project Interpreter должно быть Python 2.7/usr/bin/python2.7 
 
 ![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig8_conf_py.png "pycharm config")
@@ -176,15 +162,6 @@ cv2.waitKey(0)
 
 В результате в консоли должно быть выведено слово Hello и в окне с именем test должна появиться картинка.
 
-<p align="left">
-<img src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig9_console1.png">
-</p>
-<p align="right">
-<img src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig10_test_pic.png">
-</p>
+![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig9_console1.png "console") ![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig10_test_pic.png "test picture")
 
-
-
-<!-- ![alt text]( "success") ![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig10_test_pic.png "picture")
- -->
 ### Готово. Вы восхитительны (=
