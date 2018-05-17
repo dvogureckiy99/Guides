@@ -162,6 +162,6 @@ cv2.waitKey(0)
 
 В результате в консоли должно быть выведено слово Hello и в окне с именем test должна появиться картинка.
 
-![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig9_console1.png "console") ![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig10_test_pic.png "test picture")
+<img width = "400" height = "200" src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig9_console1.png"> ![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig10_test_pic.png "test picture")
 
 ### Готово. Вы восхитительны (=
