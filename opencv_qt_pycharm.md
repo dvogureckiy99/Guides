@@ -139,9 +139,15 @@ $ sudo snap install pycharm-community --classic
 
 <img width = "500" height = "500" src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig6_addpyf1.png"> ![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig7_addpyf2.png "add file 2")
 
-После этого переходим в File – Settings – Project – Project Interpreter, в графе Project Interpreter должно быть Python 2.7/usr/bin/python2.7 
+После этого переходим в File –> Settings –> Project –> Project Interpreter, в графе Project Interpreter должно быть Python 2.7/usr/bin/python2.7 
 
 ![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig8_conf_py.png "pycharm config")
+
+Также необходимо сделать настройку путей до библиотек, установленных не в системных папках (как в нашем случае). Выбираем File -> Settings -> Project -> Project Interpreter 
+
+<p align="center">
+<img src="">
+</p>
 
 Далее в файле main.py можно написать тестовую программу по выводу картинки в новое окно. При этом картинка должна находится там же, где и файл main. 
 
