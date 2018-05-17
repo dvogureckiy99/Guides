@@ -85,75 +85,77 @@ $ cmake   -D WITH_TBB=ON \
 
 При успешной сборке, конфигурация покажет примерно такое строки 
 
-### Installing
+![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig3_conf.png "cmake conf")
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+После окончания сборки пакетов нужно вызвать установку 
 
 ```
-Give the example
+$ make install   
 ```
 
-And repeat
+Для корректной работы необходимо приписать в переменную PYTHONPATH путь до модуля Python. Указывается такое местоположение из-за того, что в cmake команде был указан путь установки ~/opencv_bin.
 
 ```
-until finished
+$ export PYTHONPATH=~/opencv_bin/lib/python2.7/dist-packages
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+## Проверка "успешности" сборки и установки библиотеки
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Чтобы проверить, что сборка и установка прошли успешно, нужно в какой-нибудь папке запустить python2.7 и попробовать запустить тестовую программу, убедитесь, что в папке есть какая-нибудь картинка и вы знаете её имя и расширение.
 
 ```
-Give an example
+$ python
+$ print(“Hello”)
+$ im = cv2.imread(‘test_pic.jpg’)
+$ cv2.imshow(“test”, im)
+$ cv2.waitKey(0)
 ```
 
-### And coding style tests
+![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig4_testpr.png "test programm")
 
-Explain what these tests test and why
+Чтобы завершить работу с python2.7 следует использовать сочетание клавиш Ctrl + D. 
+
+## Установка IDE PYCharm 
+
+Установите IDE для программирования на python2.7 с использованием собранных и установленных библиотек. 
 
 ```
-Give an example
+$ sudo snap install pycharm-community --classic 
 ```
 
-## Deployment
+Создаём новый проект File – New Project..., указываем расположение проекта и его имя. 
 
-Add additional notes about how to deploy this on a live system
+![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig5_py_crpr.png "create project")
 
-## Built With
+После этого щёлкаем правой кнопкой мыши по появившемуся проекту во вкладке Project и выбираем New – Python File, указываем имя файла с расширением .py 
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig6_addpyf1.png "add new file 1")
 
-## Contributing
+![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig7_addpyf2.png "add new file 2")
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+После этого переходим в File – Settings – Project – Project Interpreter, в графе Project Interpreter должно быть Python 2.7/usr/bin/python2.7 
 
-## Versioning
+![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig8_conf_py.png "pycharm config")
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Далее в файле main.py можно написать тестовую программу по выводу картинки в новое окно. При этом картинка должна находится там же, где и файл main. 
 
-## Authors
+```python
+import cv2
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+print("Hello")
+im = cv2.imread('test_pic.jpg')
+cv2.imshow("test", im)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+cv2.waitKey(0)
+```
 
-## License
+Запуск программы можно осуществить несколькими способами: 
+* из панели инструментов Run – Run main
+* из консоли нажав зелёную стрелочку ![alt text]()
+* с помощью горячих клавиш Shift + F10
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+В результате в консоли должно быть выведено слово Hello и в окне с именем test должна появиться картинка.
 
-## Acknowledgments
+![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig9_console1.png "success")
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
-
+### Готово. Вы восхитительны (=
