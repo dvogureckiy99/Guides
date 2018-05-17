@@ -138,10 +138,13 @@ $ sudo snap install pycharm-community --classic
 После этого щёлкаем правой кнопкой мыши по появившемуся проекту во вкладке Project и выбираем New – Python File, указываем имя файла с расширением .py 
 
 <p align="center">
-<img width = "926" height = "927" src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig6_addpyf1.png">
+<img width = "500" height = "500" src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig6_addpyf1.png">
+
+<img width = "500" height = "500" src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig7_addpyf2.png">
+
 </p>
 
-![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig7_addpyf2.png "add new file 2")
+<!-- ![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig7_addpyf2.png "add new file 2") -->
 
 После этого переходим в File – Settings – Project – Project Interpreter, в графе Project Interpreter должно быть Python 2.7/usr/bin/python2.7 
 
