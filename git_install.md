@@ -58,7 +58,7 @@
 <img src="https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig9.png">
 </p>
 
-Указать используемый терминал (MinTTY использует те же команды, что и Git в Linux, поэтому рекомендую его)
+Указать используемый терминал (MinTTY использует те же команды, что и Git в Linux, поэтому рекомендую его, хоть он и немного страшненький)
 
 <p align="center">
 <img src="https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig10.png">
@@ -102,7 +102,10 @@
 
 Открываем эту папку и в ней нажимаем правой кнопкой мыши и выбираем Git Bash Here 
 
-![alt text](https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig16_1.png "git_bash1") ![alt text](https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig16_2.png "bash_2")
+<p align="left">
+<img width="500" height="500" src="https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig15.png">
+</p> 
+![alt text](https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig16_2.png "bash_2")
 
 Самый простой способ связать локальный и удалённый репозиторий - это «склонировать» существующий удалённый репозиторий в свой локальный. При этом, все настройки и связи образуются автоматически при «клоннировании». Для этого необходимо использовать команду git clone в папке локального репозитория
 
@@ -159,7 +162,10 @@ $ git config –-global user.email <useremail>
 
 После каждой команды нужно нажать Enter
 
-![alt text](https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig18_1.png "git_conf_1") ![alt text](https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig18_2.png "git_conf_2")
+<p align="left">
+<img width="500" height="200" src="https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig15.png">
+</p> 
+![alt text](https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig18_2.png "git_conf_2")
 
 Далее можно внести какие-либо изменения (например, добавить файл README.txt). После создания такого файла в терминале Git (в новой папке удалённого репозитория) ввести команду
 
@@ -176,7 +182,8 @@ $ git status
 #   (use "git add <file>..." to include in what will be # committed)
 #
 #   README
-#    nothing added to commit but untracked files        #        present (use "git add" to track)
+#    nothing added to commit but untracked files
+#        present (use "git add" to track)
 ```
 
 Далее в терминале Git ввести команду
