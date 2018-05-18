@@ -103,7 +103,7 @@
 Открываем эту папку и в ней нажимаем правой кнопкой мыши и выбираем Git Bash Here 
 
 <p align="left">
-<img width="500" height="500" src="https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig16_1.png"> 
+<img width="400" height="400" src="https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig16_1.png"> 
 </p>
 
 ![alt text](https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig16_2.png "bash_2")
@@ -164,7 +164,7 @@ $ git config –-global user.email <useremail>
 После каждой команды нужно нажать Enter
 
 <p align="left">
-<img width="500" height="200" src="https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig18_1.png">
+<img width="400" height="100" src="https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig18_1.png">
 </p> 
 
 ![alt text](https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig18_2.png "git_conf_2")
