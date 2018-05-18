@@ -102,14 +102,8 @@
 
 Открываем эту папку и в ней нажимаем правой кнопкой мыши и выбираем Git Bash Here 
 
-<p align="left">
-<img width="400" height="400" src="https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig16_1.png"> 
-</p>
 
-<p align="right">
-<img width="400" height="400" src="https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig16_2.png"> 
-</p>
-
+<img width="400" height="400" src="https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig16_1.png"> ![alt text](https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig16_2.png "bash2")
 
 Самый простой способ связать локальный и удалённый репозиторий - это «склонировать» существующий удалённый репозиторий в свой локальный. При этом, все настройки и связи образуются автоматически при «клоннировании». Для этого необходимо использовать команду git clone в папке локального репозитория
 
