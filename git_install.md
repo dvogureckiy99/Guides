@@ -103,7 +103,7 @@
 Открываем эту папку и в ней нажимаем правой кнопкой мыши и выбираем Git Bash Here 
 
 
-<img width="400" height="400" src="https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig16_1.png"> ![alt text](https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig16_2.png "bash2")
+<img width="400" height="400" src="https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig16_1.png"> <img width="400" height="300" src="https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig16_2.png">
 
 Самый простой способ связать локальный и удалённый репозиторий - это «склонировать» существующий удалённый репозиторий в свой локальный. При этом, все настройки и связи образуются автоматически при «клоннировании». Для этого необходимо использовать команду git clone в папке локального репозитория
 
@@ -160,7 +160,13 @@ $ git config –-global user.email <useremail>
 
 После каждой команды нужно нажать Enter
 
-![alt text](https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig18_1.png "git_conf_1")![alt text](https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig18_2.png "git_conf_2")
+<p align="center">
+<img src="https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig18_1.png">
+</p>
+
+<p align="center">
+<img src="https://github.com/serykhelena/Guides/blob/windows_os/git_install_pics/fig18_2.png">
+</p>
 
 Далее можно внести какие-либо изменения (например, добавить файл README.txt). После создания такого файла в терминале Git (в новой папке удалённого репозитория) ввести команду
 
