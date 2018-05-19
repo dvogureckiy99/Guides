@@ -66,7 +66,7 @@ $ git checkout 3.4.0
 Установить все дополнительные компоненты системы. Ввести пароль, чтобы дать разрешение на установку и согласиться на предоставления необходимого места пакетам. 
 
 ```
-$ sudo apt install git cmake qt5-default libeigen3-dev libtbb-dev python-numpy
+$ sudo apt install cmake qt5-default libeigen3-dev libtbb-dev python-numpy
 ```
 
 Создать в папке opencv папку с именем build. Перейти в неё. 
