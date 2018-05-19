@@ -32,11 +32,11 @@
 
 ## Настройка Sublime Text 3 для работы с Python 3.6.x
 
-С [официального сайта](www.python.org) нужно скачать и установить программное обеспечение (Python 3.6.x) для используемой операционной системы. Для [Windows (64 bit)](https://www.python.org/downloads/windows/) (Download Windows x86 web-installer). Установить ПО следуя предложенным параметрам, не забудьте ==добавить путь до Python в переменные среды Windows==
+С [официального сайта](www.python.org) нужно скачать и установить программное обеспечение (Python 3.6.x) для используемой операционной системы. Для [Windows (64 bit)](https://www.python.org/downloads/windows/) (Download Windows x86 web-installer). Установить ПО следуя предложенным параметрам, не забудьте добавить путь до Python в переменные среды Windows!!!!
 
-<img width="500" heigth = "500" src="https://github.com/serykhelena/Guides/blob/windows_os/sublime_install_pics/fig5_1.jpg">
+<img width="400" heigth = "400" src="https://github.com/serykhelena/Guides/blob/windows_os/sublime_install_pics/fig5_1.jpg">
 
-<img width="500" heigth = "500" src="https://github.com/serykhelena/Guides/blob/windows_os/sublime_install_pics/fig5_2.jpg">
+<img width="400" heigth = "400" src="https://github.com/serykhelena/Guides/blob/windows_os/sublime_install_pics/fig5_2.jpg">
 <p align="center">
 <img src="https://github.com/serykhelena/Guides/blob/windows_os/sublime_install_pics/fig5_3.jpg">
 </p>
