@@ -1,88 +1,93 @@
-# Project Title
+# Инструкция по установке Sublime Text 3 для Windows X
 
-One Paragraph of project description goes here
+Инструкция по установке и настройке Sublime Text 3 для работы с Python 3.6.x на Windows X
 
-## Getting Started
+## Установка текстового редактора Sublime Text 3 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Пройдя по [ссылке](https://www.sublimetext.com/3) скачать версию редактора, подходящую для вашей системы. 
 
-### Prerequisites
+Установим Sublime Text 3 для Windows 10 (64 bit) 
 
-What things you need to install the software and how to install them
+<p align="center">
+<img src="https://github.com/serykhelena/Guides/blob/windows_os/sublime_install_pics/fig1.png">
+</p>
 
-```
-Give examples
-```
+Выбираем папку для установки редактора 
 
-### Installing
+<p align="center">
+<img src="https://github.com/serykhelena/Guides/blob/windows_os/sublime_install_pics/fig2.png">
+</p>
 
-A step by step series of examples that tell you have to get a development env running
+Выбираем дополнительные настройки редактора, а именно нужно ли добавлять в контекстное меню проводника путь до Sublime Text 3 
 
-Say what the step will be
+<p align="center">
+<img src="https://github.com/serykhelena/Guides/blob/windows_os/sublime_install_pics/fig3.png">
+</p>
 
-```
-Give the example
-```
+Подтверждение установки 
 
-And repeat
+<p align="center">
+<img src="https://github.com/serykhelena/Guides/blob/windows_os/sublime_install_pics/fig4.png">
+</p>
 
-```
-until finished
-```
+## Настройка Sublime Text 3 для работы с Python 3.6.x
 
-End with an example of getting some data out of the system or using it for a little demo
+С [официального сайта](www.python.org) нужно скачать и установить программное обеспечение (Python 3.6.x) для используемой операционной системы. Для [Windows (64 bit)](https://www.python.org/downloads/windows/) (Download Windows x86 web-installer). Установить ПО следуя предложенным параметрам, не забудьте ==добавить путь до Python в переменные среды Windows==
 
-## Running the tests
+<img width="500" heigth = "500" src="https://github.com/serykhelena/Guides/blob/windows_os/sublime_install_pics/fig5_1.png">
+<img width="500" heigth = "500" src="https://github.com/serykhelena/Guides/blob/windows_os/sublime_install_pics/fig5_2.png">
+<p align="center">
+<img src="https://github.com/serykhelena/Guides/blob/windows_os/sublime_install_pics/fig5_3.png">
+</p>
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
+Открыть командную строку Windows (в поиске cmd). Ввести команду
 
 ```
-Give an example
+C:\Users\User> pip install opencv-python 
 ```
 
-## Deployment
+<p align="center">
+<img src="https://github.com/serykhelena/Guides/blob/windows_os/sublime_install_pics/fig6.png">
+</p>
 
-Add additional notes about how to deploy this on a live system
+Для того, чтобы установить модуль по работе с компьютерным зрением. 
+Аналогичным способом можно установить любые другие модули 
 
-## Built With
+```python
+pip install <module name> 
+```
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+Открыть Sublime Text 3 и сохранить пустой проект как test.py. Для этого нужно выбрать вкладку File –> Save as … выбрать директорию и сохранить, указав имя.
 
-## Contributing
+Далее открыть консоль Sublime Text с помощью команды CTRL + ‘. Вставить туда следующий код и нажать Enter:
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+```python
+import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+```
 
-## Versioning
+Проверить завершилась ли успешно установка можно, если открыть командную панель с помощью комбинации CTRL + SHIFT + P, должен появиться список параметров 
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+<p align="center">
+<img src="https://github.com/serykhelena/Guides/blob/windows_os/sublime_install_pics/fig7.png">
+</p>
 
-## Authors
+Для того, чтобы использовать сторонние плагины для улучшения среды разработки, необходимо из командной панель выбрать пункт «Package Control: Install Package», а затем выбрать плагин, который хотите установить 
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+<p align="center">
+<img src="https://github.com/serykhelena/Guides/blob/windows_os/sublime_install_pics/fig8.png">
+</p>
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+Когда все пункты были выполнены, запустите тестовую программу
 
-## License
+```python
+print(“Hello, I am working!”)
+```
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Сохраните изменения с помощью «горячей» комбинации клавиш CTRL+S, далее CTRL+SHIFT+B – выберите Python, после этого код будет ассоциироваться с языком программирования Python, больше эту операцию проводить не нужно. Чтобы запустить код на исполнение нужно нажать CTRL+B (английская раскладка). Если всё было сделано правильно, то в консоли Sublime Text 3 появится надпись “Hello, I am working!” 
 
-## Acknowledgments
+<p align="center">
+<img src="https://github.com/serykhelena/Guides/blob/windows_os/sublime_install_pics/fig9.png">
+</p>
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
 
+### Готово! Кто молодец? Ты - молодец! 
