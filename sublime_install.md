@@ -36,7 +36,7 @@
 
 <img width="400" heigth = "400" src="https://github.com/serykhelena/Guides/blob/windows_os/sublime_install_pics/fig5_1.jpg"> <img width="400" heigth = "400" src="https://github.com/serykhelena/Guides/blob/windows_os/sublime_install_pics/fig5_2.jpg">
 <p align="center">
-<img src="https://github.com/serykhelena/Guides/blob/windows_os/sublime_install_pics/fig5_3.jpg">
+<img width="400" heigth = "400" src="https://github.com/serykhelena/Guides/blob/windows_os/sublime_install_pics/fig5_3.jpg">
 </p>
 
 Открыть командную строку Windows (в поиске cmd). Ввести команду
