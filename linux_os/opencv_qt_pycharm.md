@@ -50,7 +50,7 @@ $ git clone https://github.com/opencv/opencv.git
 ```
 
 <p align="center">
-<img src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig1_clone.png">
+<img src="pics_opencv_qt_pycharm/fig1_clone.png">
 </p>
 
 Перейти в папку opencv. Потом перейти на ветку 3.4.0
@@ -60,7 +60,7 @@ $ git checkout 3.4.0
 ```
 
 <p align="center">
-<img src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig2_branch340.png">
+<img src="pics_opencv_qt_pycharm/fig2_branch340.png">
 </p>
 
 Установить все дополнительные компоненты системы. Ввести пароль, чтобы дать разрешение на установку и согласиться на предоставления необходимого места пакетам. 
@@ -90,7 +90,7 @@ $ cmake   -D WITH_TBB=ON \
 При успешной сборке, конфигурация покажет примерно такое строки 
 
 <p align="center">
-<img src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig3_conf.png">
+<img src="pics_opencv_qt_pycharm/fig3_conf.png">
 </p>
 
 После окончания сборки пакетов нужно вызвать установку 
@@ -117,7 +117,7 @@ $ cv2.imshow(“test”, im)
 $ cv2.waitKey(0)
 ```
 
-![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig4_testpr.png "test programm")
+![alt text](pics_opencv_qt_pycharm/fig4_testpr.png "test programm")
 
 Чтобы завершить работу с python2.7 следует использовать сочетание клавиш Ctrl + D. 
 
@@ -132,33 +132,33 @@ $ sudo snap install pycharm-community --classic
 Создаём новый проект File – New Project..., указываем расположение проекта и его имя. 
 
 <p align="center">
-<img src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig5_py_crpr.png">
+<img src="pics_opencv_qt_pycharm/fig5_py_crpr.png">
 </p>
 
 После этого щёлкаем правой кнопкой мыши по появившемуся проекту во вкладке Project и выбираем New –> Python File, указываем имя файла с расширением .py 
 
-<img width = "500" height = "500" src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig6_addpyf1.png"> ![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig7_addpyf2.png "add file 2")
+<img width = "500" height = "500" src="pics_opencv_qt_pycharm/fig6_addpyf1.png"> ![alt text](pics_opencv_qt_pycharm/fig7_addpyf2.png "add file 2")
 
 После этого переходим в File –> Settings –> Project –> Project Interpreter, в графе Project Interpreter должно быть Python 2.7/usr/bin/python2.7 
 
-![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig8_conf_py.png "pycharm config")
+![alt text](pics_opencv_qt_pycharm/fig8_conf_py.png "pycharm config")
 
 Также необходимо сделать настройку путей до библиотек, установленных не в системных папках (как в нашем случае). Выбираем File -> Settings -> Project -> Project Interpreter 
 
 <p align="center">
-<img src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/py_path1.png">
+<img src="pics_opencv_qt_pycharm/py_path1.png">
 </p>
 
 Далее Show all 
 
 <p align="center">
-<img src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/py_path2.png">
+<img src="pics_opencv_qt_pycharm/py_path2.png">
 </p>
 
 Потом нажимаем на крестик и выбираем нужный путь (там, где лежат библиотеки).
 
 <p align="center">
-<img src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/py_path3.png">
+<img src="pics_opencv_qt_pycharm/py_path3.png">
 </p>
 
 Далее в файле main.py можно написать тестовую программу по выводу картинки в новое окно. При этом картинка должна находится там же, где и файл main. 
@@ -175,11 +175,11 @@ cv2.waitKey(0)
 
 Запуск программы можно осуществить несколькими способами: 
 * из панели инструментов Run –> Run main
-* из консоли нажав зелёную стрелочку   ![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/green_ar.png "arrow")
+* из консоли нажав зелёную стрелочку   ![alt text](pics_opencv_qt_pycharm/green_ar.png "arrow")
 * с помощью горячих клавиш Shift + F10
 
 В результате в консоли должно быть выведено слово Hello и в окне с именем test должна появиться картинка.
 
-<img width = "500" height = "200" src="https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig9_console1.png"> ![alt text](https://github.com/serykhelena/Guides/blob/linux_os/pics_opencv_qt_pycharm/fig10_test_pic.png "test picture")
+<img width = "500" height = "200" src="pics_opencv_qt_pycharm/fig9_console1.png"> ![alt text](pics_opencv_qt_pycharm/fig10_test_pic.png "test picture")
 
 ### Готово. Вы восхитительны (=
