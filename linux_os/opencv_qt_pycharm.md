@@ -155,7 +155,7 @@ $ sudo snap install pycharm-community --classic
 <img src="pics_opencv_qt_pycharm/py_path2.png">
 </p>
 
-Потом нажимаем на крестик и выбираем нужный путь (там, где лежат библиотеки).
+Потом нажимаем на крестик и выбираем нужный путь (там, где лежат библиотеки - путь, который ранее указывали в переменную `PYTHONPATH`).
 
 <p align="center">
 <img src="pics_opencv_qt_pycharm/py_path3.png">
