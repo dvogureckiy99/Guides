@@ -1,6 +1,6 @@
 # Hi, dudes!
 
-This guide is for you just to give unve you idea how to create good report! It it splitted into parts, so I hope you will use it for your reports!
+This guide is for you just to give an idea how to create good report! It it splitted into parts, so I hope you will use it for your reports!
 
 ## Common
 
