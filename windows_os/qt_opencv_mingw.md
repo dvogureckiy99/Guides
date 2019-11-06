@@ -54,8 +54,9 @@
 Выбираем генератор `MinGW Makefiles` и `Use default native compiler`.
 
 *Если что-то идет не так - выбираем `Specify native compilers` и указываем пути:*
-- С -> `C:/Qt/Tools/mingw730_64/bin/gcc.exe`
-- С++ -> `C:/Qt/Tools/mingw730_64/bin/g++.exe`
+- С -> `C:\Qt\Tools\mingw730_64\bin\gcc.exe`
+- С++ -> `C:\Qt\Tools\mingw730_64\bin\g++.exe`
+
 В результате начнется генерация файлов для компиляции и в случае успеха вы увидите `Configuring done` в консоли.
 
 Настраиваем дополнительные параметры:
@@ -63,6 +64,8 @@
 - `WITH_OPENGL` -> `ON`;
 - `ENABLE_PRECOMPILED_HEADERS` -> `OFF`;
 - Клацаем `Configure`.
+
+> Если появляется ошибка, связанная с Qt5, то требуется установить переменной `Qt5_DIR` путь до папки с файлами `cmake` и снова запустить `Configure`. *Для нашего случая это будет путь* `С:\Qt\5.12.5\mingw73_64\lib\cmake\Qt5`.
 
 Если все окей - нажимаем `Generate`, дожидаемся окончания (`Generating done`) и выходим из CMake.
 
@@ -100,6 +103,7 @@ LIBS += -L$${OPENCV_DIR}\x64\mingw\lib \
         -lopencv_imgcodecs347   \
         -lopencv_imgproc347     \
         -lopencv_features2d347  \
+        -lopencv_videoio347     \
         -lopencv_calib3d347
 ```
 
