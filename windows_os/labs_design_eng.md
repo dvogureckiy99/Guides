@@ -59,7 +59,9 @@ This guide is for you just to give an idea how to create good report! It it spli
 
 1. The text in the report must be **Width aligned** with **1.25cm first line indent**.
 
-2. Examination of transient response(-s) must include small conclusion about main quality characteristics:
+2. Use **Bold headers** for each part of the work to highlight the parts.
+
+3. Examination of transient response(-s) must include small conclusion about main quality characteristics:
 - Time of response [numeric value of time];
 - Time of first reach (first moment when reference value is reached) [numeric value of time];
 - Static error [numeric value of difference between reference and steady state values];
