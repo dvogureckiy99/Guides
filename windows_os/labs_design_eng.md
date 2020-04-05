@@ -12,6 +12,8 @@ This guide is for you just to give an idea how to create good report! It it spli
 
 2. Never end any part of your work with table/figure. Any chapter of the work must be ended with a bunch of text. As a common thing, at the end of the chapter you can describe your results.
 
+3. Better send PDF versions of the reports for checking as this format have no issues for viewing in different versions of software.
+
 ## 2. Charts / Plots
 
 1. The description of the plot must be before representation followed by plot capture! What I mean is:
