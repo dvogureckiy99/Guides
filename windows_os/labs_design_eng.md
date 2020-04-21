@@ -55,6 +55,8 @@ This guide is for you just to give an idea how to create good report! It it spli
 
 8. Dont use bright colors for plotting (they are hardly visible in the report).
 
+9. Figures shouldnt be overloaded, if you compare two modes or controllers - only two lines per figure are required.
+
 ## 3. Text representation
 
 1. The text in the report must be **Width aligned** with **1.25cm first line indent**.
@@ -67,3 +69,5 @@ This guide is for you just to give an idea how to create good report! It it spli
 - Static error [numeric value of difference between reference and steady state values];
 - Is stable [boolean value if transient response reaches 5% border of reference value during steady state];
 - Overshoot [numeric percentage value].
+
+> If figure contains two or more lines - its better to make table with quality characteristics.
